@@ -11,7 +11,7 @@ let usersBuffer = [];
 let blockedUsersBuffer = [];
 
 const REGION = "ru"
-const BATCH_SIZE = 5;
+const BATCH_SIZE = 100;
 
 
 async function saveUsersToDatabase() {
